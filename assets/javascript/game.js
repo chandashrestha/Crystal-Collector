@@ -19,7 +19,7 @@ var win = 0;
 var loss = 0;
 
 
-var randScore = Math.floor(Math.random() * (121-19)) + 19;
+randScore = Math.floor(Math.random() * (121-19)) + 19;
 console.log(randScore);
 
       // MAJOR TASK #1: DYNAMICALLY CREATE CRYSTAL IMAGES as buttons
@@ -44,7 +44,7 @@ console.log(randScore);
 
       }
       function compChoice(){
-        var randScore = Math.floor(Math.random() * (121-19)) + 19;
+        randScore = Math.floor(Math.random() * (121-19)) + 19;
         $("#randScore").text(randScore);
     }
     function crystalRandom(){
@@ -97,6 +97,7 @@ console.log(randScore);
             compChoice();
             crystalRandom();
             crystalValues = 0;
+            $("#totalScore").text(crystalValues);
         }
         else if (crystalValues > randScore){
             loss ++
@@ -104,5 +105,6 @@ console.log(randScore);
             compChoice();
             crystalRandom();
             crystalValues = 0;
+            $("#totalScore").text(crystalValues);
         }
     }
