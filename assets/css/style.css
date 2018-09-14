@@ -1,11 +1,12 @@
 body {
-    background-image: url('../images/googleCrystalImage.jpg');
+    background : orange;
 }
 .container {
     text-align: center;
     font-family: cursive;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
+    background-image: url('../images/googleCrystalImage.jpg');  
 }
 
 h1 {
@@ -23,7 +24,7 @@ p1 {
 .paragraph {
     text-align: center;
     width: 50%;
-    border: 5px solid rgb(113, 0, 128);
+    border: 5px solid rgb(0, 128, 128);
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +32,7 @@ p1 {
 }
 
 .score {
-    border: 5px solid rgb(113, 0, 128);
+    border: 5px solid rgb(0, 128, 128);
     background: lightcoral;
     width: 15%;
     text-align: center;
@@ -40,7 +41,7 @@ p1 {
 }
 
 .ttlscore {
-    border: 5px solid rgb(113, 0, 128);
+    border: 5px solid rgb(0, 128, 128);
     background: lightcoral;
     width: 15%;
     text-align: center;
