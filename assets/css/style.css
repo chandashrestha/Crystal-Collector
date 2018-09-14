@@ -1,12 +1,13 @@
 body {
-    background : orange;
+    background: orange;
 }
+
 .container {
     text-align: center;
     font-family: cursive;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('../images/googleCrystalImage.jpg');  
+    background-image: url('../images/googleCrystalImage.jpg');
 }
 
 h1 {
@@ -16,6 +17,7 @@ h1 {
     color: white;
     background: pink;
 }
+
 p1 {
     text-align: center;
     font-family: cursive;
@@ -48,4 +50,3 @@ p1 {
     margin-left: auto;
     margin-right: auto;
 }
-
